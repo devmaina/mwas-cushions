@@ -1,0 +1,67 @@
+ 
+        body {
+            margin: 0;
+            padding: 0; 
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(to right, #8e44ad, #3498db);
+            color: #fff;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 10px;
+            position: relative;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+
+        }
+
+        .product-card {
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 10px;
+            padding: 20px;
+            margin: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            color: palevioletred;
+        }
+
+        h2 {
+            color: #2c3e50;
+            font-weight: 900;
+            border-radius: 50px;
+            padding-left: 15px;
+            background-color: rgba(148, 90, 150, 0.2);
+        }
+
+        .contact-info {
+            margin-top: 20px;
+        }
+
+        .contact-info p {
+            margin: 5px 0;
+        }
+        a{
+            text-decoration: none;
+            
+           
+        }
+        .image{
+            width: 30vw; 
+        border-radius: 10px; 
+           }
+           button{
+
+            width: 200px ;
+            height: 30px;
+            border-radius: 15px;
+            background-color: red;
+           }
+           button:hover{
+
+            background-color:yellowgreen;
+           }
+  
